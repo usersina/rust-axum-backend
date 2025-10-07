@@ -3,7 +3,7 @@
 - Install the dependencies
 
 ```bash
-cargo install
+cargo build
 ```
 
 - Install cargo-watch globally
