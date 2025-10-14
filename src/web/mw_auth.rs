@@ -13,7 +13,7 @@ use tower_cookies::{Cookie, Cookies};
 pub async fn mw_require_auth(ctx: Result<Ctx>, req: Request<Body>, next: Next) -> Result<Response> {
     println!("->> {:<12} - mw_require_auth - {ctx:?}", "MIDDLEWARE");
 
-    ctx?;
+    ctx?; // Just to check if ctx is Ok, otherwise return the error
 
     Ok(next.run(req).await)
 }

@@ -17,6 +17,7 @@ pub fn routes(mc: ModelController) -> Router {
 }
 
 // region: --- REST Handlers
+#[axum::debug_handler]
 async fn create_ticket(
     State(mc): State<ModelController>,
     ctx: Ctx,
@@ -29,12 +30,14 @@ async fn create_ticket(
     Ok(Json(ticket))
 }
 
+#[axum::debug_handler]
 async fn list_tickets(State(mc): State<ModelController>, ctx: Ctx) -> Result<Json<Vec<Ticket>>> {
     println!("->> {:<12} - list_tickets", "HANDLER");
     let tickets = mc.list_tickets(ctx).await?;
     Ok(Json(tickets))
 }
 
+#[axum::debug_handler]
 async fn delete_ticket(
     State(mc): State<ModelController>,
     ctx: Ctx,
