@@ -112,18 +112,10 @@ cargo test quick_dev
 
 ## 📝 Todo
 
-- [ ] Fully grasp the Rust concepts used in this project. [See video](https://www.youtube.com/watch?v=XZtlD_m59sM&list=PL7r-PXl6ZPcCTTxjmsb9bFZB9i01fAtI7&index=8&pp=iAQB)
+- [x] Fully grasp the Rust concepts used in this project. [See video](https://www.youtube.com/watch?v=XZtlD_m59sM&list=PL7r-PXl6ZPcCTTxjmsb9bFZB9i01fAtI7&index=8&pp=iAQB)
 - [ ] Make the project production-ready. [See video](https://youtu.be/3cA_mk4vdWY?list=PL7r-PXl6ZPcCTTxjmsb9bFZB9i01fAtI7)
 - [ ] Refine more with Sea-Query + SQLX + ModQL. [See video](https://youtu.be/-dMH9UiwKqg?list=PL7r-PXl6ZPcCTTxjmsb9bFZB9i01fAtI7)
 - [ ] Transform to use workspaces. (See [1st video](https://youtu.be/zUxF0kvydJs?list=PL7r-PXl6ZPcCTTxjmsb9bFZB9i01fAtI7) and [2nd video](https://youtu.be/iCGIqEWWTcA?list=PL7r-PXl6ZPcCTTxjmsb9bFZB9i01fAtI7))
-
-## 🤝 Contributing
-
-This is a learning project. Feel free to:
-
-- Open issues for questions or clarifications
-- Submit PRs to improve documentation
-- Share your own learning experiences
 
 ## 📚 External Resources
 
@@ -131,7 +123,3 @@ This is a learning project. Feel free to:
 - [Axum Documentation](https://docs.rs/axum/latest/axum/) - Framework docs
 - [Tokio Tutorial](https://tokio.rs/tokio/tutorial) - Async runtime
 - [Original Tutorial Series](https://www.youtube.com/watch?v=XZtlD_m59sM&list=PL7r-PXl6ZPcCTTxjmsb9bFZB9i01fAtI7) - YouTube playlist
-
-## 📄 License
-
-This project is for educational purposes.
